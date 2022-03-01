@@ -1,0 +1,168 @@
+/* common css */
+
+* {
+  margin: 0;
+  padding: 0;
+  outline: 0;
+  box-sizing: border-box;
+  line-height: 2;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+
+:root {
+  --color-black: #000000;
+  --color-black-222: #222222;
+  --color-black-333: #333333;
+  --color-black-555: #555555;
+  --color-black-777: #777777;
+  --color-white: #ffffff;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background: var(--color-white);
+  color: var(--color-white);
+  padding: 2rem 0.5rem;
+}
+
+ul {
+  padding: 1rem 2rem;
+}
+
+img {
+  width: 100%;
+}
+
+.container {
+  max-width: 1280px;
+  margin: 0 auto;
+}
+
+/* header area start */
+
+.header-area {
+  text-align: center;
+  padding: 1rem 0;
+  background: var(--color-black-222);
+  border-radius: 0.25rem 0.25rem 0 0;
+}
+
+.header-title {
+  padding: 1.5rem 1rem 0.5rem;
+  text-shadow: 1px 1px 1px var(--color-black);
+}
+
+.header-para {
+  letter-spacing: 1px;
+  text-transform: capitalize;
+}
+
+/* main area start*/
+
+/* tribute-image area start */
+
+.tribute-image-area {
+  background: var(--color-black-222);
+  padding: 0 0.75rem;
+}
+
+div.tribute-image-area-wrapper {
+  background: var(--color-white);
+  margin: 0 0.25rem;
+  padding: 0.75rem;
+}
+
+figure.tribute-img-div {
+  text-align: center;
+}
+
+figcaption.tribute-img-caption {
+  color: var(--color-black-222);
+  padding: 1.125rem 0.75rem 0.25rem;
+}
+
+img.tribute-image {
+  max-width: 1080px;
+  display: block;
+  height: auto;
+  margin: 0 auto;
+}
+
+/* tribute-info area start */
+
+section.tribute-info {
+  background: var(--color-black-222);
+  overflow: hidden;
+}
+
+h3.tribute-headline {
+  text-align: center;
+  margin: 3rem 0;
+}
+
+.tribute-ul-wrapper ul {
+  max-width: 640px;
+  margin: 0 auto 3rem auto;
+  text-align: left;
+  line-height: 1.6;
+}
+
+.tribute-ul-wrapper li {
+  margin: 1rem 0;
+}
+
+.tribute-ul-wrapper li strong {
+  background: var(--color-black-777);
+  color: var(--color-black);
+  padding: 4px 8px 3px;
+  border-radius: 0.25rem;
+}
+
+/* footer-top area start */
+
+.footer-top {
+  background: var(--color-black-222);
+  padding: 0 1rem;
+}
+
+.footer-top-wrapper {
+  background: var(--color-black-777);
+  padding: 2.5rem 1rem;
+}
+
+.footer-top-wrapper blockquote {
+  font-style: italic;
+  max-width: 640px;
+  margin: 0 auto;
+  text-align: left;
+}
+
+.footer-top-wrapper h3 {
+  text-align: center;
+  margin-top: 2.5rem;
+}
+
+.footer-top-wrapper h3 a {
+  color: var(--color-white);
+  opacity: 80%;
+}
+
+.footer-top-wrapper h3 a:hover {
+  text-decoration: none;
+  opacity: 100%;
+}
+
+/* footer area start */
+
+.footer-area {
+  padding: 1.25rem;
+  text-align: center;
+  background: var(--color-black-222);
+  border-radius: 0 0 0.25rem 0.25rem;
+}
+
+/* end of css */
